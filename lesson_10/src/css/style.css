@@ -1,0 +1,111 @@
+body {
+  color: #32325f;
+  font-family: "Helvetica Neue";
+}
+
+/* sections */
+
+.hero {
+  padding-top: 74px;
+}
+
+.section {
+  padding-top: 90px;
+  padding-bottom: 130px;
+}
+
+.footer {
+  background-color: #32325f;
+  color: #fff;
+  padding-top: 78px;
+  padding-bottom: 104px;
+}
+
+/* repeatable */
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 14px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+/* hero */
+/* navbar */
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* main */
+.main {
+  padding-top: 160px;
+  padding-bottom: 190px;
+}
+
+.book-img {
+  text-align: center;
+}
+
+.description {
+  max-width: 516px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.price-tag {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 400;
+  padding-bottom: 49px;
+}
+
+.btn-s {
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-success-s {
+  background-color: #2dce89;
+  margin-right: 20px;
+}
+
+.btn-primary-s {
+  background-color: #5e72e4;
+}
+
+/* about */
+
+.about-block {
+  padding-top: 90px;
+}
+
+.block-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/* footer */
+.footer-title {
+  font-size: 24px;
+  font-weight: 700;
+}

@@ -1,0 +1,152 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* repetable */
+
+.header {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  display: block;
+}
+
+.note {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-thru {
+  text-decoration: line-through;
+}
+
+/* general */
+
+body {
+  /* Блочная модель */
+  margin: auto;
+  max-width: 90%;
+  width: 900px;
+  /* Оформление */
+  background-image: url("../img/background.svg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgb(240, 240, 240);
+}
+
+/* introduction */
+
+.intro-block {
+  background-color: rgba(246, 251, 253, 0.911);
+}
+
+.introduction {
+  /* Блочная модель */
+  max-width: 95%;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* Типографика */
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  /* Оформление */
+  border: solid 2px;
+}
+
+/* first-page */
+
+.first-page {
+  /* Позиционирование */
+  top: 20px;
+  right: 70px;
+  /* Блочная модель */
+  display: block;
+  position: fixed;
+  margin: auto;
+  max-width: 95%;
+}
+
+.table-of-contents {
+  padding-top: 15px;
+}
+
+/* chapter-1 */
+
+.chapter-1 {
+  background-color: rgba(255, 247, 247, 0.911);
+}
+
+
+.chapter-1-main {
+  /* Блочная модель */
+  max-width: 95%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/* chapter-2 */
+
+.chapter-2 {
+  background-color: rgba(242, 255, 245, 0.911);
+}
+
+
+.chapter-2-main {
+  /* Блочная модель */
+  max-width: 95%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/* chapter-3 */
+
+.chapter-3 {
+  background-color: rgba(254, 255, 242, 0.911);
+}
+
+.chapter-3-main {
+  /* Блочная модель */
+  max-width: 95%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/* chapter-4 */
+
+.chapter-4 {
+  background-color: rgba(242, 248, 255, 0.911);
+}
+
+.chapter-4-main {
+  /* Блочная модель */
+  max-width: 95%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/* chapter-5 */
+
+.chapter-5 {
+  background-color: rgba(242, 255, 247, 0.911);
+}
+
+.chapter-5-main {
+  /* Блочная модель */
+  max-width: 95%;
+  margin: auto;
+  padding-bottom: 20px;
+}

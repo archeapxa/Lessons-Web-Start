@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  
+  background-color: #fff;
+  font-family: Tahoma;
+}
+
+
+/* containers */
+
+.container-1 {
+  display: flex;
+  max-width: 1140px;
+  width: 80%;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1140px;
+  width: 80%;
+}
+
+
+/* container-1 */
+
+.book-img {
+  margin: 77px 75px 96px 10px;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 137px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.author {
+  margin-bottom: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.description {
+  max-width: 526px;
+  margin-bottom: 47px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.price {
+  margin-bottom: 53px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #313131;
+}
+
+
+/* buttons-container-1 */
+
+.btn {
+  border-radius: 5px;
+  font-family: Tahoma;
+  font-weight: 700;
+  font-size: 23px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buy-btn {
+  padding: 22px 42px;
+  line-height: 23px;
+  background-color: #f05a22;
+  color: #ffffff;
+  border: none;
+}
+
+.know-more-btn {
+  margin-left: 40px;
+  padding: 21px 30px;
+  line-height: 21px;
+  color: #f05a22;
+  background-color: #fff;
+  border: 2px solid #f05a22;
+}
+
+
+
+/* container-2 */
+
+.delivery-title {
+  margin: 90px 0;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.icons-block {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 24%;
+}
+
+.icon {
+  margin-bottom: 21px;
+}
+
+.icon-description {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #333333;
+}
