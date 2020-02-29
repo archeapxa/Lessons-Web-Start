@@ -16,15 +16,12 @@ body {
   max-width: 1010px;
   width: 90%;
   background-color: #fff;
-
-}
-
-.card {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
 }
+
+
 
 .image {
   padding: 64px 48px;
@@ -40,30 +37,30 @@ body {
   color: #2f2f2f;
 }
 
-.main h1 {
+h1 {
   padding-bottom: 30px;
   font-size: 23px;
   font-weight: 700;
 }
 
-.main p {
+p {
   padding-bottom: 55px;
   font-size: 15px;
   line-height: 130%;
 }
 
-.main span {
+span {
   padding-bottom: 23px;
   font-size: 15px;
 }
 
-.main strong {
+strong {
   margin-bottom: 56px;
   font-size: 30px;
   font-weight: 400;
 }
 
-.main a {
+button {
   padding: 16px 39px;
   background-color: #ec744a;
   color: #ffffff;
