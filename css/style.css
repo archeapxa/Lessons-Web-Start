@@ -12,6 +12,9 @@ body {
   background-color: #34495e;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  /* background: url('../video/ocean.jpg') no-repeat center; */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
